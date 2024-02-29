@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": "d6e42fac-f25d-48fe-bfe7-882e1c114aa7",
+      "title": "Title of film",
+      "description": "Description....",
+      "year": "1990",
+      "country": "USA",
+      "rating": "7",
+      "genres": ["drama"],
+      "actors": ["John", "Doe", "Sarah"],
+      "imageUrl": "https://static5.depositphotos.com/1030296/395/i/450/depositphotos_3958211-stock-photo-new-york-cityscape-tourism-concept.jpg",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": "d6e42fac-f25d-48fe-bfe7-882e1c114aa8",
+      "title": "Title of film",
+      "description": "Description....",
+      "year": "1990",
+      "country": "USA",
+      "rating": "7",
+      "genres": ["drama"],
+      "actors": ["John", "Doe", "Sarah"],
+      "imageUrl": "https://static5.depositphotos.com/1030296/395/i/450/depositphotos_3958211-stock-photo-new-york-cityscape-tourism-concept.jpg",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": "d6e42fac-f25d-48fe-bfe7-882e1c114aa9",
+      "title": "Title of film",
+      "description": "Description....",
+      "year": "1990",
+      "country": "USA",
+      "rating": "7",
+      "genres": ["drama"],
+      "actors": ["John", "Doe", "Sarah"],
+      "imageUrl": "https://static5.depositphotos.com/1030296/395/i/450/depositphotos_3958211-stock-photo-new-york-cityscape-tourism-concept.jpg",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": "d6e42fac-f25d-48fe-bfe7-882e1c114aa0",
+      "title": "Title of film",
+      "description": "Description....",
+      "year": "1990",
+      "country": "USA",
+      "rating": "7",
+      "genres": ["drama"],
+      "actors": ["John", "Doe", "Sarah"],
+      "imageUrl": "https://static5.depositphotos.com/1030296/395/i/450/depositphotos_3958211-stock-photo-new-york-cityscape-tourism-concept.jpg",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    }
+  ]
+}
