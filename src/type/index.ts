@@ -10,3 +10,13 @@ export type Movie = {
   imageUrl: string;
   videoUrl: string;
 };
+
+export type Filters = {
+  minYear: number | null;
+  maxYear: number | null;
+  country: string;
+  minRating: number | null;
+  maxRating: number | null;
+  genre: string;
+  actor: string;
+};
