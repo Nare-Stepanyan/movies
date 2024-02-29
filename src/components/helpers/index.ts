@@ -1,4 +1,5 @@
 import { Filters, Movie } from "../../type";
+import { CriteriaSortEnum, OrderSortEnum } from "../enums";
 
 export const applyFilters = (movies: Movie[], filters: Filters): Movie[] => {
   return movies.filter((movie) => {
@@ -26,5 +27,19 @@ export const applyFilters = (movies: Movie[], filters: Filters): Movie[] => {
       genreMatches &&
       actorMatches
     );
+  });
+};
+
+export const applySorting = (
+  movies: Movie[],
+  order: OrderSortEnum,
+  criteria: CriteriaSortEnum
+): Movie[] => {
+  return [...movies].sort((a, b) => {
+    if (order === OrderSortEnum.ASCENDING) {
+      return a[criteria] - b[criteria];
+    } else {
+      return b[criteria] - a[criteria];
+    }
   });
 };
